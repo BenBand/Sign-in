@@ -2,13 +2,40 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
-#table-style{
-    width: 50px;
-    border-collapse: collapse;
-    border: 1px solid black;
+.sing-n-form{
+    width: 320px;
+    margin: 8% auto 0;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.6);
 }
-tr,td,th{
+label{
+    display: flex;
+    margin-top: 26px;
+}
+.txt-inpput{
+    width: 100%;
     border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 6px;
+    padding: 8px;
+}
+.btn-and-remember{
+    display: flex;
     text-align: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.btn{
+    width: 45%;
+    padding: 12px;
+    color: red;
+    background-color: white;
+    border: 2px solid red;
+    margin-top: 15px;
+}
+.bcheck{
+    margin-top: 30px;
 }
