@@ -3,35 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Table Practice</title>
-  <link rel="stylesheet" href="indexpr.css">
+  <title>Sign In</title>
+  <link rel="stylesheet" href="indexpr.css" />
 </head>
 <body>
-  <table id="table-style">
-    <thead>
-    <tr>
-      <th scope="col">Name</th>
-      <th scope="col">Expense</th>
-    </tr>
-  </thead>
+  <form>
+    <div class="sing-n-form">
+      <label>Username or email</label>
+      <input type="email" id="email" class="txt-inpput" />
+      <p class="error-message" id="error-email"></p>
 
-  <tbody>
-    <tr>
-      <td>Arun</td>
-      <td>$10</td>
-    </tr>
+      <label>Password</label>
+      <input type="password" id="password" class="txt-inpput" />
+      <p class="error-message" id="error-password"></p>
 
-    <tr>
-      <td rowspan="2">Priya</td>
-      <td>$8</td>
-    </tr>
-  </tbody>
-
-    <tfoot>
-    <tr style="text-align: center;">
-      <td colspan="3">Sum $18</td>
-    </tr>
-  </tfoot>
-  </table>
+      <div class="btn-and-remember">
+        <input type="submit" value="Login" class="btn" />
+        <input type="checkbox"> Remember me
+      </div>
+      <p>Lost your password?</p>
+    </div>
+  </form>
 </body>
 </html>
