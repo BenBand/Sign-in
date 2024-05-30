@@ -2,7 +2,7 @@ function FormValidation(){
     const Email = document.getElementById("email").value;
     const Password = document.getElementById("password").value;
 
-    const ErrorEmail = document.getElementById("error-email");
+    const ErrorEmail = document.getElementById("error_email");
     const ErrorPassword= document.getElementById("error-password");
 
     ErrorEmail.textContent = "";
