@@ -39,7 +39,7 @@ label{
 .bcheck{
     margin-top: 30px;
 }
-.error-message{
+.error_message{
     margin-top: 5px;
     font-size: 14px;
     color: red;
